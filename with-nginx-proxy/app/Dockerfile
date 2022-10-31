@@ -1,4 +1,4 @@
-FROM nextcloud:21.0.4
+FROM nextcloud:25.0.0
 
 COPY transifexconf/* /root/
 
