@@ -30,8 +30,8 @@ services:
       - proxy-tier
 
   nextcloud:
-    #build: ./app
-    image: luongquy/vworkspace:25.0.0
+    build: ./app
+    # image: luongquy/vworkspace:25.0.0
     container_name: nextcloud
     restart: always
     volumes:
